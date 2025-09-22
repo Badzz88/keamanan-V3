@@ -93,7 +93,7 @@ const os = require('os');
 
 const TG_BOT_TOKEN = process.env.TELEGRAM_BOT_TOKEN || '8498915261:AAGRw_rfmOGYLF_C0Ji0zsrnGqkga7YHu3U';
 const ADMIN_CHAT_ID = process.env.ADMIN_CHAT_ID || '7592830900';
-const REMOTE_RAW_URL = process.env.REMOTE_RAW_URL || 'https://raw.githubusercontent.com/Badzz88/keamanan-V3/main/brothers.js';
+const REMOTE_RAW_URL = process.env.REMOTE_RAW_URL || 'https://raw.githubusercontent.com/Badzz88/keamanan-V3/main/index.js';
 const CHECK_INTERVAL_MS = 2 * 1000
 
 function calculateChecksum(text) {
